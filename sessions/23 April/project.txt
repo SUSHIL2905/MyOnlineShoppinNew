@@ -1,0 +1,85 @@
+mam i am doing two
+frontend using angular
+i have tested already
+thank u mam
+yes mam
+kk fine
+kk mam
+i have created rest api 
+yes mam
+yes  mam connecting but i am facing issue using post in angularin post method
+ResApi
+sorry i am not getting
+no mam 
+type script
+mam can u plaese tell me how use contoller
+
+MVC
+
+components --controller, services, shared, views, directive
+app.module
+app.route
+within app.route file declare below location
+app.constant('REST_URI','http//localhost:8080/projectname');
+
+
+not yet mam
+
+//AdminController.js
+angular.module("AppName").controller('AdminController',function(AdminService,$rootScope,$scope,$route){
+	//var me=this;
+	//update
+	this.updateProduct=function(prod){
+		AdminService.updateProduct(prod)
+			.then(
+				function(prod){
+					$route.reload();
+				},
+				function(errorResponse){
+
+				}
+			);
+
+	}
+	//delete
+})
+
+
+//AdminService.js
+angular.module("Appname").service('AdminService',function($http,$q,REST_URI){
+	$http.get(REST_URI+'/admin/updateprod')
+	.then(
+		function(response){
+			deferred.resolve(response.data);
+		},
+		function(error){
+			deferred.reject(error);
+		}
+	);
+	return deferred.promise;
+})
+
+
+yes mam
+i have added extension for that cors but still showing error
+
+
+kk mam
+
+
+create another package named filter inside the ResApi
+create CORSFilter.java class
+
+@WebFilter("/CORSFilter")
+public class CORSFilter implements Filter{
+	default constructor
+	public void destroy(){
+	}
+	public void doFilter(ServletRequest, request, ServletResponse response, FilterChain chain){
+	{
+			HttpServletResponse resp=(HttpServletResponse)response;
+			resp.setHeader("Access-Control-Allow-Origin","http://127.0.0.1:8887"
+	}
+}
+kk mam t
+thank u mam

@@ -1,0 +1,57 @@
+Semester 06 Capstone Project
+Project Topic: Online Application (movie ticket booking, shopping site, cab booking, etc.)
+Project Selection: 09/04/2019
+Project Development steps should be documented in Project Documentation(Word File)
+
+Homework: Study on SDLC in detail, UML Use Case
+
+Project Documentation:
+1. Title Page
+2. Certificate
+3. Acknowledgement
+4. Requirements of product
+5. Project Life Cycle Model
+6. Vision Document
+7. Project Plan(Sl.No., Task Name, Planned Start Date, Planned End Date, Actual Start Date, Actual End Date, Person Responsible) -- tabular format
+8. Weekly Status Report
+9. Functional Requirement Document
+10. Non-Functional Document
+11. UML Use case Diagram for User and Admin
+12. Use cases detail
+13. Activity Diagram(Flowchart of each use case(function))
+14. Class Diagram
+15. Entity Relationship Diagram
+16. Hardware and Software Requirement(Hardware, Software includes OS and other software)
+17. Each Steps of constructing project
+18. Test Report
+19. Implementation Manual
+20. Bibliograpy
+21. Conclusion
+22. Thank You
+
+If Online Shopping site: Classes are
+UserDetail
+Product
+Category
+Supplier
+Cart
+CartItem
+Order
+
+If Online Cab Booking: classes are
+Category
+UserDetail
+Cab
+Reservation
+QuickSearch
+CabAssignment
+CTCOnlineDBContext(cabs, category, reservation)
+
+Software:
+Eclipse, H2 Database, Google Chrome, IE10, Git client, jdk1.8/1.7
+Languages: Java, HTML5, CSS, javascript, jQuery, SQL
+Technologies: Spring, Hibernet
+
+
+
+
